@@ -5,9 +5,10 @@ if(length(new.packages)) install.packages(new.packages, repos='http://cran.us.r-
 
 library(dataverse)
 library(readxl)
-library(tidyverse)
+library(tidyverse) # Thank you Hadley Wickham
 library(rio)
 library(knitr)
+
 
 #get the dataset overview
 #be sure to not have a proxy behind a firewall
